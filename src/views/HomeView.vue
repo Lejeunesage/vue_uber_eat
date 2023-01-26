@@ -6,6 +6,7 @@ import Home from '../page/home.vue'
 
 <template>
   <main>
+    
     <Home />
   </main>
 </template>

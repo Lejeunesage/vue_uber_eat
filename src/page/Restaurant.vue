@@ -72,8 +72,8 @@ import { useRoute } from 'vue-router'
     border: 1px solid rgba(0, 0, 0, 0.247);
 
     .img{
-      width: 300px;
-      height: 200px;
+      width: 500px;
+      height: 300px;
 
       img{
         width: 100%;
@@ -100,7 +100,7 @@ import { useRoute } from 'vue-router'
     }
 
     .description{
-      width: 300px;
+      width: 500px;
       margin: 0 auto;
       p{
         text-align: justify;

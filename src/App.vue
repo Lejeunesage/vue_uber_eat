@@ -17,7 +17,16 @@ import { RouterLink, RouterView } from 'vue-router'
   <RouterView />
 </template>
 
-<style scoped>
+<style >
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #47b275;
+  border-radius: 50px;
+}
 header {
   line-height: 1.5;
   max-height: 100vh;

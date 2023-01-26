@@ -54,8 +54,16 @@ export default {
 
 <style scoped lang="scss">
 .restaurant--card{
-    width: 32%;
+    width: 100%;
     height: 30vh;
+    box-shadow: 0 0 10px black;
+    padding: 1rem;
+    transition: 0.5s;
+
+    &:hover{
+        transform: scale(1.02);
+        transition: all ease-in-out .5s;
+    }
 
     p{
         margin: 0;
@@ -66,6 +74,8 @@ export default {
         height: 70%;
         background-size: cover;
         background-position: center;
+        border-radius: 10px;
+
     }
 
     .restaurant--information{
@@ -87,9 +97,13 @@ export default {
                 border-radius: 50%;
             }
         }
-
+        .name{
+            color: black;
+            font-size: 2rem;
+        }
         .time{
-            font-size: 0.9rem;
+            font-size: 1rem;
+            color: black;
         }
     }
 }

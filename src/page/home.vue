@@ -21,6 +21,8 @@
 
     <div class="bannier"></div>
     <RestaurantRow v-for="(data, index) in data_restaurant" :key="index" :three_restaurant="data"/>
+
+ 
    
 </div>
 </template>
