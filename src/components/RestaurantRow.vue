@@ -42,7 +42,7 @@ import RestaurantCard from "./RestaurantCard.vue";
             
             .row--link{
                 // display: flex;
-                width: 30%;
+                width: 29%;
                 text-decoration: none;
 
 

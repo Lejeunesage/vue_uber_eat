@@ -20,6 +20,9 @@
     </div>
 
     <div class="bannier"></div>
+
+    <h1 style="text-align:center">Nos restaurants</h1>
+
     <RestaurantRow v-for="(data, index) in data_restaurant" :key="index" :three_restaurant="data"/>
 
  
